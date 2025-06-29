@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+
+<main class="flex-1 px-6 py-10">
+  <div class="max-w-5xl mx-auto">
+
+    <!-- Gambar / Ilustrasi Lebar -->
+    <div class="w-full h-64 md:h-80 bg-gray-300 flex items-center justify-center mb-8 rounded">
+      <h2 class="text-xl font-semibold text-gray-700">Tentang Website Ini</h2>
+    </div>
+
+    <!-- Paragraf Penjelasan -->
+    <div class="text-gray-700 text-justify space-y-4 text-sm leading-relaxed">
+      <p>
+        <strong>SI-DASENAWOOD</strong> (Sistem Informasi Penilaian dan Penentuan Penebang Kayu Berbasis Web) adalah aplikasi berbasis web yang dikembangkan secara mandiri untuk membantu masyarakat, khususnya di wilayah Kabupaten Kupang, dalam mencari, memilih, dan menentukan jasa penebangan kayu secara cepat, efisien, dan transparan.
+      </p>
+      <p>
+        Aplikasi ini lahir dari permasalahan nyata yang terjadi di lapangan, terutama di daerah Tualeu, di mana masyarakat masih kesulitan menemukan penebang kayu yang profesional dan sesuai kebutuhan. Umumnya, penebangan masih dilakukan secara bebas dan konvensional, tanpa adanya informasi yang jelas mengenai kualitas, harga, atau pengalaman kerja penyedia jasa.
+      </p>
+      <p>
+        Melalui SI-DASENAWOOD, masyarakat kini dapat:
+        <ul class="list-disc ml-6 mt-2">
+          <li>Melihat daftar penebang kayu berdasarkan rating tertinggi hingga terendah</li>
+          <li>Melakukan penilaian langsung melalui fitur Rating</li>
+          <li>Memberikan penilaian terhadap layanan penebang kayu berdasarkan lima kriteria:</li>
+          <ul class="list-disc ml-8">
+            <li>Kualitas pekerjaan</li>
+            <li>Keamanan kerja</li>
+            <li>Kecepatan pengerjaan</li>
+            <li>Pengalaman dan keahlian</li>
+            <li>Harga jasa</li>
+          </ul>
+        </ul>
+      </p>
+      <p>
+        Aplikasi ini juga menerapkan metode <strong>SMART</strong> (Simple Multi Attribute Rating Technique) sebagai dasar sistem pendukung keputusan dalam menghitung rating akhir dari setiap penebang kayu. Metode ini membantu mengubah penilaian pelanggan menjadi nilai objektif untuk menyusun peringkat terbaik, sehingga pengguna dapat dengan mudah memilih jasa yang sesuai dengan kebutuhannya.
+      </p>
+      <p>
+        Dengan hadirnya SI-DASENAWOOD, diharapkan proses pencarian, pemesanan, dan evaluasi jasa penebang kayu menjadi lebih modern, adil, dan efisien. Sistem ini tidak hanya memberikan manfaat kepada pelanggan, tetapi juga mendorong para penyedia jasa untuk terus meningkatkan kualitas layanan mereka berdasarkan masukan nyata dari konsumen.
+      </p>
+    </div>
+
+  </div>
+</main>
+
+{% endblock %}

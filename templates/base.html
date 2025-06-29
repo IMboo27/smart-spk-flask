@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SI-DASENAWOOD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <header class="bg-white shadow p-4 flex justify-between items-center">
+      <div class="text-xl font-bold">Logo</div>
+      <nav class="space-x-4">
+        <a
+          href="{{ url_for('index') }}"
+          class="text-gray-700 hover:text-blue-600"
+          >Home</a
+        >
+        <a
+          href="{{ url_for('layanan') }}"
+          class="text-gray-700 hover:text-blue-600"
+          >Layanan</a
+        >
+        <a
+          href="{{ url_for('tentang') }}"
+          class="text-gray-700 hover:text-blue-600"
+          >Tentang</a
+        >
+        <a
+          href="{{ url_for('rating') }}"
+          class="text-gray-700 hover:text-blue-600"
+          >Rating</a
+        >
+      </nav>
+    </header>
+
+    <main class="flex-1 px-6 py-10">{% block content %}{% endblock %}</main>
+
+    <footer class="bg-gray-100 text-left py-6 text-sm pl-12 mt-auto">
+      <p class="font-semibold">SI-DASENAWOOD</p>
+      <p>Jl Amabi Oefeto Kupang</p>
+      <p>adminkupangkupang@gmail.com</p>
+      <p>+6281234567812</p>
+    </footer>
+  </body>
+</html>
