@@ -1,0 +1,234 @@
+[
+  {
+    "penebang_id": "penebang-011",
+    "harga": 3,
+    "kualitas": 5,
+    "keahlian": 5,
+    "kecepatan": 5,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-003",
+    "harga": 4,
+    "kualitas": 5,
+    "keahlian": 5,
+    "kecepatan": 5,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-001",
+    "harga": 4,
+    "kualitas": 5,
+    "keahlian": 4,
+    "kecepatan": 4,
+    "keamanan": 5
+  },
+  {
+    "penebang_id": "penebang-002",
+    "harga": 3,
+    "kualitas": 4,
+    "keahlian": 4,
+    "kecepatan": 3,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-008",
+    "harga": 4,
+    "kualitas": 4,
+    "keahlian": 4,
+    "kecepatan": 4,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-005",
+    "harga": 3,
+    "kualitas": 4,
+    "keahlian": 4,
+    "kecepatan": 3,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-004",
+    "harga": 3,
+    "kualitas": 3,
+    "keahlian": 3,
+    "kecepatan": 3,
+    "keamanan": 3
+  },
+  {
+    "penebang_id": "penebang-014",
+    "harga": 3,
+    "kualitas": 3,
+    "keahlian": 3,
+    "kecepatan": 3,
+    "keamanan": 3
+  },
+  {
+    "penebang_id": "penebang-007",
+    "harga": 3,
+    "kualitas": 3,
+    "keahlian": 3,
+    "kecepatan": 4,
+    "keamanan": 3
+  },
+  {
+    "penebang_id": "penebang-006",
+    "harga": 3,
+    "kualitas": 3,
+    "keahlian": 3,
+    "kecepatan": 3,
+    "keamanan": 3
+  },
+  {
+    "penebang_id": "penebang-009",
+    "harga": 3,
+    "kualitas": 2,
+    "keahlian": 3,
+    "kecepatan": 2,
+    "keamanan": 2
+  },
+  {
+    "penebang_id": "penebang-015",
+    "harga": 2,
+    "kualitas": 2,
+    "keahlian": 2,
+    "kecepatan": 2,
+    "keamanan": 2
+  },
+  {
+    "penebang_id": "penebang-012",
+    "harga": 2,
+    "kualitas": 2,
+    "keahlian": 2,
+    "kecepatan": 2,
+    "keamanan": 2
+  },
+  {
+    "penebang_id": "penebang-010",
+    "harga": 1,
+    "kualitas": 1,
+    "keahlian": 1,
+    "kecepatan": 1,
+    "keamanan": 1
+  },
+  {
+    "penebang_id": "penebang-013",
+    "harga": 5,
+    "kualitas": 1,
+    "keahlian": 1,
+    "kecepatan": 1,
+    "keamanan": 1
+  },
+  {
+    "penebang_id": "penebang-001",
+    "harga": 4,
+    "kualitas": 4,
+    "keahlian": 4,
+    "kecepatan": 4,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-011",
+    "harga": 2,
+    "kualitas": 5,
+    "keahlian": 5,
+    "kecepatan": 5,
+    "keamanan": 5
+  },
+  {
+    "penebang_id": "penebang-003",
+    "harga": 4,
+    "kualitas": 5,
+    "keahlian": 5,
+    "kecepatan": 5,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-003",
+    "harga": 1,
+    "kualitas": 1,
+    "keahlian": 1,
+    "kecepatan": 1,
+    "keamanan": 1
+  },
+  {
+    "penebang_id": "penebang-011",
+    "harga": 2,
+    "kualitas": 5,
+    "keahlian": 5,
+    "kecepatan": 5,
+    "keamanan": 5
+  },
+  {
+    "penebang_id": "penebang-011",
+    "harga": 3,
+    "kualitas": 5,
+    "keahlian": 5,
+    "kecepatan": 5,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-001",
+    "harga": 1,
+    "kualitas": 1,
+    "keahlian": 1,
+    "kecepatan": 1,
+    "keamanan": 1
+  },
+  {
+    "penebang_id": "penebang-003",
+    "harga": 3,
+    "kualitas": 4,
+    "keahlian": 4,
+    "kecepatan": 4,
+    "keamanan": 5
+  },
+  {
+    "penebang_id": "penebang-011",
+    "harga": 1,
+    "kualitas": 1,
+    "keahlian": 1,
+    "kecepatan": 1,
+    "keamanan": 1
+  },
+  {
+    "penebang_id": "penebang-011",
+    "harga": 3,
+    "kualitas": 5,
+    "keahlian": 5,
+    "kecepatan": 5,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-011",
+    "harga": 3,
+    "kualitas": 3,
+    "keahlian": 3,
+    "kecepatan": 3,
+    "keamanan": 3
+  },
+  {
+    "penebang_id": "penebang-011",
+    "harga": 3,
+    "kualitas": 4,
+    "keahlian": 4,
+    "kecepatan": 4,
+    "keamanan": 5
+  },
+  {
+    "penebang_id": "penebang-011",
+    "harga": 3,
+    "kualitas": 5,
+    "keahlian": 5,
+    "kecepatan": 5,
+    "keamanan": 4
+  },
+  {
+    "penebang_id": "penebang-001",
+    "harga": 4,
+    "kualitas": 4,
+    "keahlian": 4,
+    "kecepatan": 4,
+    "keamanan": 4
+  }
+]

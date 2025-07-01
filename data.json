@@ -1,0 +1,107 @@
+[
+  {
+    "id": "penebang-011",
+    "nama": "Risal",
+    "hp": "081234567811",
+    "total_smart": 0.875,
+    "rating_bintang": 4.5
+  },
+  {
+    "id": "penebang-003",
+    "nama": "Dance",
+    "hp": "081234567803",
+    "total_smart": 0.763,
+    "rating_bintang": 4.05
+  },
+  {
+    "id": "penebang-001",
+    "nama": "Adibu",
+    "hp": "081234567801",
+    "total_smart": 0.75,
+    "rating_bintang": 4.0
+  },
+  {
+    "id": "penebang-002",
+    "nama": "Albert",
+    "hp": "081234567802",
+    "total_smart": 0.663,
+    "rating_bintang": 3.65
+  },
+  {
+    "id": "penebang-008",
+    "nama": "Matias",
+    "hp": "081234567808",
+    "total_smart": 0.75,
+    "rating_bintang": 4.0
+  },
+  {
+    "id": "penebang-005",
+    "nama": "Finsen",
+    "hp": "081234567805",
+    "total_smart": 0.663,
+    "rating_bintang": 3.65
+  },
+  {
+    "id": "penebang-004",
+    "nama": "Delon",
+    "hp": "081234567804",
+    "total_smart": 0.5,
+    "rating_bintang": 3.0
+  },
+  {
+    "id": "penebang-014",
+    "nama": "Yanto",
+    "hp": "081234567814",
+    "total_smart": 0.5,
+    "rating_bintang": 3.0
+  },
+  {
+    "id": "penebang-007",
+    "nama": "Jefri",
+    "hp": "081234567807",
+    "total_smart": 0.55,
+    "rating_bintang": 3.2
+  },
+  {
+    "id": "penebang-006",
+    "nama": "Jastin",
+    "hp": "081234567806",
+    "total_smart": 0.5,
+    "rating_bintang": 3.0
+  },
+  {
+    "id": "penebang-009",
+    "nama": "Nando",
+    "hp": "081234567809",
+    "total_smart": 0.338,
+    "rating_bintang": 2.35
+  },
+  {
+    "id": "penebang-015",
+    "nama": "Yogga",
+    "hp": "081234567815",
+    "total_smart": 0.25,
+    "rating_bintang": 2.0
+  },
+  {
+    "id": "penebang-012",
+    "nama": "Simon",
+    "hp": "081234567812",
+    "total_smart": 0.25,
+    "rating_bintang": 2.0
+  },
+  {
+    "id": "penebang-010",
+    "nama": "Remon",
+    "hp": "081234567810",
+    "total_smart": 0.0,
+    "rating_bintang": 1.0
+  },
+  {
+    "id": "penebang-013",
+    "nama": "Yabes",
+    "hp": "081234567813",
+    "total_smart": 0.15,
+    "rating_bintang": 1.6
+  }
+]
