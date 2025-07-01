@@ -1,0 +1,52 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="text-2xl font-bold text-center mb-6">Profil Penebang Kayu</h1>
+
+<div class="flex flex-col items-center space-y-6">
+  {% for p in penebang %}
+  <div
+    class="w-full max-w-2xl bg-white border rounded-lg shadow p-6 flex items-center"
+  >
+    <div class="w-24 h-24 bg-gray-300 rounded-full mr-6 flex-shrink-0"></div>
+    <div class="flex flex-col">
+      <p class="font-bold text-xl">{{ p.nama }}</p>
+      {% if p.rating_bintang %}
+      <p class="text-yellow-500 mt-1 font-semibold">
+        ⭐ Rating: {{ p.rating_bintang }} / 5
+      </p>
+      <p class="text-sm text-gray-500">Nilai SMART: {{ p.total_smart }}</p>
+      {% else %}
+      <p class="text-gray-400 mt-1">Belum ada rating</p>
+      {% endif %}
+      <a
+        href="https://wa.me/{{ p.hp | replace('0', '62', 1) }}"
+        target="_blank"
+        class="inline-block mt-2 px-4 py-1 bg-green-500 text-white rounded hover:bg-green-600 transition"
+      >
+        Hubungi via WhatsApp
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Tombol Navigasi Halaman -->
+<div class="flex justify-center items-center mt-8 space-x-4">
+  {% if has_prev %}
+  <a
+    href="{{ url_for('layanan', page=page-1) }}"
+    class="px-4 py-2 border rounded hover:bg-gray-200"
+    >&lt; Sebelumnya</a
+  >
+  {% endif %}
+
+  <span class="text-gray-600 font-medium">Halaman {{ page }}</span>
+
+  {% if has_next %}
+  <a
+    href="{{ url_for('layanan', page=page+1) }}"
+    class="px-4 py-2 border rounded hover:bg-gray-200"
+    >Selanjutnya &gt;</a
+  >
+  {% endif %}
+</div>
+{% endblock %}
