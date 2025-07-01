@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="text-2xl font-bold text-center mb-6">Beri Rating Penebang Kayu</h1>
+<form method="POST" class="max-w-md mx-auto bg-white p-6 rounded shadow">
+  <label class="block mb-2 font-semibold">Pilih Penebang:</label>
+  <select name="penebang_id" required class="w-full mb-4 p-2 border rounded">
+    {% for p in penebang %}
+    <option value="{{ p.id }}">{{ p.nama }}</option>
+    {% endfor %}
+  </select>
+
+  {% for kriteria in ['harga', 'kualitas', 'keahlian', 'kecepatan', 'keamanan']
+  %}
+  <label class="block mb-2 font-semibold">{{ kriteria.capitalize() }}:</label>
+  <input
+    type="number"
+    name="{{ kriteria }}"
+    min="1"
+    max="5"
+    required
+    class="w-full mb-4 p-2 border rounded"
+  />
+  {% endfor %}
+
+  <button
+    type="submit"
+    class="w-full mt-4 bg-blue-500 text-white py-2 rounded hover:bg-blue-600"
+  >
+    Kirim Rating
+  </button>
+</form>
+{% endblock %}
